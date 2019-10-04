@@ -1,0 +1,267 @@
+#main {
+    transition: margin-left .5s;
+    padding: 20px;}
+html{
+    height:100%;
+}
+body{
+    position: relative;
+    min-height: 100%;
+    background:solid #f1f1f1; }
+
+.navbar{
+       border:2px solid #f1f1f1;
+    background-color: #fff;
+     box-shadow: 0 8px 12px 0 rgba(0, 0, 0, 0.2);
+
+
+}
+.navbar ul{
+    float:right;
+     transition: all 0.3s ease;
+}
+
+.navbar a:hover
+{
+    color: white;
+    line-height: 50px;
+}
+
+.navbar {
+    line-height: 50px;
+}
+
+.navbar a{
+    background: white;
+    color: white;
+    padding:10px;
+}
+ /*.navbar ul:hover ,.navbar ul:focus {
+     border-bottom: 2px solid #3dbd99;
+      background: #f6f6f6;
+
+ }          */
+
+
+.sidebar ul,
+.sidebar li{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+.sidebar{
+
+background: white;
+float: none;
+border:2px solid #f1f1f1;
+background-color: #fff;
+width: 70px;
+min-height: 385vh;
+z-index: 1;
+top:0;
+left:0;
+height:100%;
+position: absolute;
+ box-shadow: 0 8px 12px 0 rgba(0, 0, 0, 0.2);
+
+
+
+
+}
+
+.sidebar ul{
+    background: #fff;
+}
+.sidebar > ul > li {
+  border-right: 2px solid #d7d8da;
+
+}
+.sidebar > ul > li:hover {
+  border-right: 3px solid #3dbd99; }
+  .sidebar ul li:hover > a {
+  color: #3dbd99;              }
+  .sidebar > ul > li:hover {
+  background: #f6f6f6;   }
+
+.sidebar a {
+    display: block;
+    text-align:left;
+    padding: 16px;
+    transition: all 0.3s ease;
+    color: white;
+    font-size: 36px;
+
+
+
+   }
+   .heading{
+    top: 10%;
+     text-align: left;
+     position : absolute;
+     left:10%;
+    padding: 20px;
+    font size: 60px;
+
+}
+
+
+  div.example {
+      top: 30%;
+     text-align: left;
+  background-color:#f6f6f6 ;
+  padding: 20px;
+  position: absolute;
+   left:12%;
+}
+.example1{
+
+}
+
+@media screen and (min-width: 400px) {
+  div.example {
+    font-size: 17px;
+  }
+}
+
+@media screen and (max-width: 401px) {
+  div.example {
+    font-size: 17px;
+  }
+}
+.btn {
+  border: 1.5px solid black;
+  background-color:#fff;
+  color: black;
+  padding: 14px 28px;
+  font-size: 16px;
+  cursor: pointer;
+     font-weight: bold;
+}
+
+.order {
+  border-color: #3dbd99;
+  color: #3dbd99;
+}
+.order {border-radius: 4px;}
+
+.order:hover {
+  background-color: #3dbd99;
+  color: white;
+}
+.grid1{
+    top: 100%;
+     text-align: left;
+  position: absolute;
+   left:12%;
+}
+
+* {
+  box-sizing: border-box;
+}
+ .grid1{    width:90%;
+ max-width: 1240px;
+ margin: 0 auto;
+ display: grid;
+ grid-template-columns:repeat(3,1fr);
+ grid-template-rows: auto auto auto;
+ grid-gap:20px;
+
+ }
+
+/* Float four columns side by side
+.column {
+  float: left;
+  width: 20%;
+  padding: 0 30px;
+}
+
+/*Remove extra left and right margins, due to padding
+.row {margin: 0 -10px;}
+
+ /*Clear floats after the columns
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive columns
+@media screen and (min-width: 400px) {
+  .column {
+    width: 150%;
+    display: block;
+    margin-bottom: 20px;
+  }
+}
+
+.left, .right,.middle {
+  width: 30%;}
+  .right{
+      float:right;
+  }
+    .left{
+        float : left;
+    }
+    .middle{
+        float:center;
+    }
+
+/* Style the counter cards */
+.card {
+   background-image:url(Capture.JPG);
+   background-repeat:no-repeat;
+   background-position: left top;
+
+
+   top: 0;
+   position: relative;
+   padding-top: 16px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.05);
+  padding: 40px;
+  text-align: center;
+  background-color: white;
+    transition: all .1s ease;
+          }
+          .card:hover{
+              top:-4px;
+              box-shadow: 0 12px 12px 0 rgba(0, 0, 0, 0.5);
+
+          }
+
+  .social-icons {
+      position:absolute;
+      top:350%;
+      left:40%;
+      text-align: center;
+  }
+.social-icons li {
+  display:inline-block;
+  list-style-type:none;
+  }
+.social-icons li a {
+  border-bottom: none;
+  }
+.social-icons li img {
+  width:40px;
+  height:40px;
+  margin-right: 20px;
+}
+ .txt {
+      position:absolute;
+      top:360%;
+      left:40%;
+      text-align: center;
+      font-size:17px;  }
+ .txt2 {
+      position:absolute;
+      top:375%;
+      left:40%;
+      text-align: center;
+      font-size:15px;
+       border-bottom: none;
+      margin-right:20px;              }
+      .img{
+          position:relative;
+          left:10%;
+      }
